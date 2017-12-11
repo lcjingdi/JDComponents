@@ -6,6 +6,7 @@ target 'JDComponents' do
   # use_frameworks!
 #网络库类
 pod 'YTKNetwork'
+pod 'HandyFrame'
   # Pods for JDComponents
 
 end

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37DEE2A61FDE878100E453A2 /* JDNetworkingDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2A51FDE878100E453A2 /* JDNetworkingDemoViewController.m */; };
+		37DEE2A91FDE8A0900E453A2 /* YTKNetworkingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2A81FDE8A0900E453A2 /* YTKNetworkingVC.m */; };
+		37DEE2AC1FDE8CBF00E453A2 /* RegisterApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2AB1FDE8CBF00E453A2 /* RegisterApi.m */; };
 		37FE64B81FDE83D100937623 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE64B71FDE83D100937623 /* AppDelegate.m */; };
 		37FE64BB1FDE83D100937623 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE64BA1FDE83D100937623 /* ViewController.m */; };
 		37FE64BE1FDE83D100937623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FE64BC1FDE83D100937623 /* Main.storyboard */; };
@@ -17,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37DEE2A41FDE878100E453A2 /* JDNetworkingDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDNetworkingDemoViewController.h; sourceTree = "<group>"; };
+		37DEE2A51FDE878100E453A2 /* JDNetworkingDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDNetworkingDemoViewController.m; sourceTree = "<group>"; };
+		37DEE2A71FDE8A0900E453A2 /* YTKNetworkingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTKNetworkingVC.h; sourceTree = "<group>"; };
+		37DEE2A81FDE8A0900E453A2 /* YTKNetworkingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkingVC.m; sourceTree = "<group>"; };
+		37DEE2AA1FDE8CBF00E453A2 /* RegisterApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterApi.h; sourceTree = "<group>"; };
+		37DEE2AB1FDE8CBF00E453A2 /* RegisterApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterApi.m; sourceTree = "<group>"; };
 		37FE64B31FDE83D100937623 /* JDComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FE64B61FDE83D100937623 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37FE64B71FDE83D100937623 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +62,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		37DEE2A31FDE85E900E453A2 /* JDNetworkingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2A41FDE878100E453A2 /* JDNetworkingDemoViewController.h */,
+				37DEE2A51FDE878100E453A2 /* JDNetworkingDemoViewController.m */,
+				37DEE2A71FDE8A0900E453A2 /* YTKNetworkingVC.h */,
+				37DEE2A81FDE8A0900E453A2 /* YTKNetworkingVC.m */,
+				37DEE2AA1FDE8CBF00E453A2 /* RegisterApi.h */,
+				37DEE2AB1FDE8CBF00E453A2 /* RegisterApi.m */,
+			);
+			path = JDNetworkingDemo;
+			sourceTree = "<group>";
+		};
 		37FE64AA1FDE83D100937623 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +96,7 @@
 		37FE64B51FDE83D100937623 /* JDComponents */ = {
 			isa = PBXGroup;
 			children = (
+				37DEE2A31FDE85E900E453A2 /* JDNetworkingDemo */,
 				37FE64B61FDE83D100937623 /* AppDelegate.h */,
 				37FE64B71FDE83D100937623 /* AppDelegate.m */,
 				37FE64B91FDE83D100937623 /* ViewController.h */,
@@ -222,7 +245,10 @@
 			files = (
 				37FE64BB1FDE83D100937623 /* ViewController.m in Sources */,
 				37FE64C61FDE83D100937623 /* main.m in Sources */,
+				37DEE2A61FDE878100E453A2 /* JDNetworkingDemoViewController.m in Sources */,
+				37DEE2AC1FDE8CBF00E453A2 /* RegisterApi.m in Sources */,
 				37FE64B81FDE83D100937623 /* AppDelegate.m in Sources */,
+				37DEE2A91FDE8A0900E453A2 /* YTKNetworkingVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
