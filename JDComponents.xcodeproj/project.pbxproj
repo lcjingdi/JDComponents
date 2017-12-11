@@ -13,6 +13,7 @@
 		37FE64C01FDE83D100937623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FE64BF1FDE83D100937623 /* Assets.xcassets */; };
 		37FE64C31FDE83D100937623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FE64C11FDE83D100937623 /* LaunchScreen.storyboard */; };
 		37FE64C61FDE83D100937623 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE64C51FDE83D100937623 /* main.m */; };
+		520DBD02F7803B68728A99CA /* libPods-JDComponents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6415E0336CE674E06A95D5 /* libPods-JDComponents.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		37FE64C21FDE83D100937623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37FE64C41FDE83D100937623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37FE64C51FDE83D100937623 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEA55867FCCDF1CC25178AEF /* Pods-JDComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDComponents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDComponents/Pods-JDComponents.debug.xcconfig"; sourceTree = "<group>"; };
+		E9D86EE9AC265C05EA3FD94B /* Pods-JDComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDComponents.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDComponents/Pods-JDComponents.release.xcconfig"; sourceTree = "<group>"; };
+		FD6415E0336CE674E06A95D5 /* libPods-JDComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDComponents.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520DBD02F7803B68728A99CA /* libPods-JDComponents.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B3F4FCCD5CB7920C76397CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEA55867FCCDF1CC25178AEF /* Pods-JDComponents.debug.xcconfig */,
+				E9D86EE9AC265C05EA3FD94B /* Pods-JDComponents.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		37FE64AA1FDE83D100937623 = {
 			isa = PBXGroup;
 			children = (
 				37FE64B51FDE83D100937623 /* JDComponents */,
 				37FE64B41FDE83D100937623 /* Products */,
+				0B3F4FCCD5CB7920C76397CA /* Pods */,
+				637FFB9E69EB7CB88883AF5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +87,14 @@
 			path = JDComponents;
 			sourceTree = "<group>";
 		};
+		637FFB9E69EB7CB88883AF5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD6415E0336CE674E06A95D5 /* libPods-JDComponents.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 37FE64C91FDE83D100937623 /* Build configuration list for PBXNativeTarget "JDComponents" */;
 			buildPhases = (
+				4CDDF8F515FA485C48008EA9 /* [CP] Check Pods Manifest.lock */,
 				37FE64AF1FDE83D100937623 /* Sources */,
 				37FE64B01FDE83D100937623 /* Frameworks */,
 				37FE64B11FDE83D100937623 /* Resources */,
+				C37DF3F7680D124FDE803979 /* [CP] Embed Pods Frameworks */,
+				34FCB33CD5463F4ECCEE8306 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,6 +163,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34FCB33CD5463F4ECCEE8306 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDComponents/Pods-JDComponents-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CDDF8F515FA485C48008EA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JDComponents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C37DF3F7680D124FDE803979 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JDComponents/Pods-JDComponents-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37FE64AF1FDE83D100937623 /* Sources */ = {
@@ -276,9 +354,11 @@
 		};
 		37FE64CA1FDE83D100937623 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA55867FCCDF1CC25178AEF /* Pods-JDComponents.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99PJ6X3Z7H;
 				INFOPLIST_FILE = JDComponents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ekwing.JDComponents;
@@ -289,9 +369,11 @@
 		};
 		37FE64CB1FDE83D100937623 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D86EE9AC265C05EA3FD94B /* Pods-JDComponents.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 99PJ6X3Z7H;
 				INFOPLIST_FILE = JDComponents/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ekwing.JDComponents;
