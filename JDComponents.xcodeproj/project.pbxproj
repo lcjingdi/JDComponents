@@ -10,6 +10,32 @@
 		37DEE2A61FDE878100E453A2 /* JDNetworkingDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2A51FDE878100E453A2 /* JDNetworkingDemoViewController.m */; };
 		37DEE2A91FDE8A0900E453A2 /* YTKNetworkingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2A81FDE8A0900E453A2 /* YTKNetworkingVC.m */; };
 		37DEE2AC1FDE8CBF00E453A2 /* RegisterApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2AB1FDE8CBF00E453A2 /* RegisterApi.m */; };
+		37DEE2EE1FDE9A6500E453A2 /* CTLoggerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2AF1FDE9A6500E453A2 /* CTLoggerConfiguration.m */; };
+		37DEE2EF1FDE9A6500E453A2 /* CTNetworkingConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37DEE2B01FDE9A6500E453A2 /* CTNetworkingConfiguration.plist */; };
+		37DEE2F01FDE9A6500E453A2 /* CTNetworkingConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2B11FDE9A6500E453A2 /* CTNetworkingConfigurationManager.m */; };
+		37DEE2F11FDE9A6500E453A2 /* CTLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2B71FDE9A6500E453A2 /* CTLogger.m */; };
+		37DEE2F21FDE9A6500E453A2 /* CTURLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2BA1FDE9A6500E453A2 /* CTURLResponse.m */; };
+		37DEE2F31FDE9A6500E453A2 /* CTAPIBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2BC1FDE9A6500E453A2 /* CTAPIBaseManager.m */; };
+		37DEE2F41FDE9A6500E453A2 /* LGBaseAPICommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2BF1FDE9A6500E453A2 /* LGBaseAPICommand.m */; };
+		37DEE2F51FDE9A6500E453A2 /* CLBasicCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2C21FDE9A6500E453A2 /* CLBasicCommand.m */; };
+		37DEE2F61FDE9A6500E453A2 /* CTLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2C41FDE9A6500E453A2 /* CTLocationManager.m */; };
+		37DEE2F71FDE9A6500E453A2 /* iPhoneTypeDefine.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37DEE2C61FDE9A6500E453A2 /* iPhoneTypeDefine.plist */; };
+		37DEE2F81FDE9A6500E453A2 /* CTApiProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2C91FDE9A6500E453A2 /* CTApiProxy.m */; };
+		37DEE2F91FDE9A6500E453A2 /* CTCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2CB1FDE9A6500E453A2 /* CTCache.m */; };
+		37DEE2FA1FDE9A6500E453A2 /* CTCachedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2CC1FDE9A6500E453A2 /* CTCachedObject.m */; };
+		37DEE2FB1FDE9A6500E453A2 /* CTRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2D11FDE9A6500E453A2 /* CTRequestGenerator.m */; };
+		37DEE2FC1FDE9A6500E453A2 /* CTSignatureGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2D41FDE9A6500E453A2 /* CTSignatureGenerator.m */; };
+		37DEE2FD1FDE9A6500E453A2 /* CTCommonParamsGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2D81FDE9A6500E453A2 /* CTCommonParamsGenerator.m */; };
+		37DEE2FE1FDE9A6500E453A2 /* NSURLRequest+CTNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2E21FDE9A6500E453A2 /* NSURLRequest+CTNetworkingMethods.m */; };
+		37DEE2FF1FDE9A6500E453A2 /* NSObject+CTNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2E31FDE9A6500E453A2 /* NSObject+CTNetworkingMethods.m */; };
+		37DEE3001FDE9A6500E453A2 /* NSString+CTNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2E41FDE9A6500E453A2 /* NSString+CTNetworkingMethods.m */; };
+		37DEE3011FDE9A6500E453A2 /* NSArray+CTNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2E51FDE9A6500E453A2 /* NSArray+CTNetworkingMethods.m */; };
+		37DEE3021FDE9A6500E453A2 /* NSDictionary+CTNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2E61FDE9A6500E453A2 /* NSDictionary+CTNetworkingMethods.m */; };
+		37DEE3031FDE9A6500E453A2 /* NSMutableString+CTNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2E71FDE9A6500E453A2 /* NSMutableString+CTNetworkingMethods.m */; };
+		37DEE3041FDE9A6500E453A2 /* UIDevice+CTNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2E81FDE9A6500E453A2 /* UIDevice+CTNetworkingMethods.m */; };
+		37DEE3051FDE9A6500E453A2 /* CTService.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2EB1FDE9A6500E453A2 /* CTService.m */; };
+		37DEE3061FDE9A6500E453A2 /* CTServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2EC1FDE9A6500E453A2 /* CTServiceFactory.m */; };
+		37DEE3091FDE9BC900E453A2 /* RTNetworkingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE3081FDE9BC900E453A2 /* RTNetworkingVC.m */; };
 		37FE64B81FDE83D100937623 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE64B71FDE83D100937623 /* AppDelegate.m */; };
 		37FE64BB1FDE83D100937623 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE64BA1FDE83D100937623 /* ViewController.m */; };
 		37FE64BE1FDE83D100937623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FE64BC1FDE83D100937623 /* Main.storyboard */; };
@@ -26,6 +52,57 @@
 		37DEE2A81FDE8A0900E453A2 /* YTKNetworkingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkingVC.m; sourceTree = "<group>"; };
 		37DEE2AA1FDE8CBF00E453A2 /* RegisterApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterApi.h; sourceTree = "<group>"; };
 		37DEE2AB1FDE8CBF00E453A2 /* RegisterApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterApi.m; sourceTree = "<group>"; };
+		37DEE2AF1FDE9A6500E453A2 /* CTLoggerConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTLoggerConfiguration.m; sourceTree = "<group>"; };
+		37DEE2B01FDE9A6500E453A2 /* CTNetworkingConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CTNetworkingConfiguration.plist; sourceTree = "<group>"; };
+		37DEE2B11FDE9A6500E453A2 /* CTNetworkingConfigurationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTNetworkingConfigurationManager.m; sourceTree = "<group>"; };
+		37DEE2B21FDE9A6500E453A2 /* CTLoggerConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTLoggerConfiguration.h; sourceTree = "<group>"; };
+		37DEE2B31FDE9A6500E453A2 /* CTNetworkingConfigurationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTNetworkingConfigurationManager.h; sourceTree = "<group>"; };
+		37DEE2B61FDE9A6500E453A2 /* CTLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTLogger.h; sourceTree = "<group>"; };
+		37DEE2B71FDE9A6500E453A2 /* CTLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTLogger.m; sourceTree = "<group>"; };
+		37DEE2B91FDE9A6500E453A2 /* CTURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTURLResponse.h; sourceTree = "<group>"; };
+		37DEE2BA1FDE9A6500E453A2 /* CTURLResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTURLResponse.m; sourceTree = "<group>"; };
+		37DEE2BC1FDE9A6500E453A2 /* CTAPIBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTAPIBaseManager.m; sourceTree = "<group>"; };
+		37DEE2BD1FDE9A6500E453A2 /* CTAPIBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTAPIBaseManager.h; sourceTree = "<group>"; };
+		37DEE2BF1FDE9A6500E453A2 /* LGBaseAPICommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGBaseAPICommand.m; sourceTree = "<group>"; };
+		37DEE2C01FDE9A6500E453A2 /* CLBasicCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBasicCommand.h; sourceTree = "<group>"; };
+		37DEE2C11FDE9A6500E453A2 /* LGBaseAPICommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGBaseAPICommand.h; sourceTree = "<group>"; };
+		37DEE2C21FDE9A6500E453A2 /* CLBasicCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLBasicCommand.m; sourceTree = "<group>"; };
+		37DEE2C41FDE9A6500E453A2 /* CTLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTLocationManager.m; sourceTree = "<group>"; };
+		37DEE2C51FDE9A6500E453A2 /* CTLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTLocationManager.h; sourceTree = "<group>"; };
+		37DEE2C61FDE9A6500E453A2 /* iPhoneTypeDefine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPhoneTypeDefine.plist; sourceTree = "<group>"; };
+		37DEE2C81FDE9A6500E453A2 /* CTApiProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTApiProxy.h; sourceTree = "<group>"; };
+		37DEE2C91FDE9A6500E453A2 /* CTApiProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTApiProxy.m; sourceTree = "<group>"; };
+		37DEE2CB1FDE9A6500E453A2 /* CTCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCache.m; sourceTree = "<group>"; };
+		37DEE2CC1FDE9A6500E453A2 /* CTCachedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCachedObject.m; sourceTree = "<group>"; };
+		37DEE2CD1FDE9A6500E453A2 /* CTCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCache.h; sourceTree = "<group>"; };
+		37DEE2CE1FDE9A6500E453A2 /* CTCachedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCachedObject.h; sourceTree = "<group>"; };
+		37DEE2D11FDE9A6500E453A2 /* CTRequestGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTRequestGenerator.m; sourceTree = "<group>"; };
+		37DEE2D21FDE9A6500E453A2 /* CTRequestGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTRequestGenerator.h; sourceTree = "<group>"; };
+		37DEE2D41FDE9A6500E453A2 /* CTSignatureGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTSignatureGenerator.m; sourceTree = "<group>"; };
+		37DEE2D51FDE9A6500E453A2 /* CTSignatureGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTSignatureGenerator.h; sourceTree = "<group>"; };
+		37DEE2D71FDE9A6500E453A2 /* CTCommonParamsGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTCommonParamsGenerator.h; sourceTree = "<group>"; };
+		37DEE2D81FDE9A6500E453A2 /* CTCommonParamsGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTCommonParamsGenerator.m; sourceTree = "<group>"; };
+		37DEE2D91FDE9A6500E453A2 /* CTNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTNetworking.h; sourceTree = "<group>"; };
+		37DEE2DB1FDE9A6500E453A2 /* NSObject+CTNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CTNetworkingMethods.h"; sourceTree = "<group>"; };
+		37DEE2DC1FDE9A6500E453A2 /* NSURLRequest+CTNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURLRequest+CTNetworkingMethods.h"; sourceTree = "<group>"; };
+		37DEE2DD1FDE9A6500E453A2 /* NSMutableString+CTNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+CTNetworkingMethods.h"; sourceTree = "<group>"; };
+		37DEE2DE1FDE9A6500E453A2 /* NSDictionary+CTNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CTNetworkingMethods.h"; sourceTree = "<group>"; };
+		37DEE2DF1FDE9A6500E453A2 /* NSString+CTNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CTNetworkingMethods.h"; sourceTree = "<group>"; };
+		37DEE2E01FDE9A6500E453A2 /* NSArray+CTNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+CTNetworkingMethods.h"; sourceTree = "<group>"; };
+		37DEE2E11FDE9A6500E453A2 /* UIDevice+CTNetworkingMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+CTNetworkingMethods.h"; sourceTree = "<group>"; };
+		37DEE2E21FDE9A6500E453A2 /* NSURLRequest+CTNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURLRequest+CTNetworkingMethods.m"; sourceTree = "<group>"; };
+		37DEE2E31FDE9A6500E453A2 /* NSObject+CTNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CTNetworkingMethods.m"; sourceTree = "<group>"; };
+		37DEE2E41FDE9A6500E453A2 /* NSString+CTNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CTNetworkingMethods.m"; sourceTree = "<group>"; };
+		37DEE2E51FDE9A6500E453A2 /* NSArray+CTNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+CTNetworkingMethods.m"; sourceTree = "<group>"; };
+		37DEE2E61FDE9A6500E453A2 /* NSDictionary+CTNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CTNetworkingMethods.m"; sourceTree = "<group>"; };
+		37DEE2E71FDE9A6500E453A2 /* NSMutableString+CTNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+CTNetworkingMethods.m"; sourceTree = "<group>"; };
+		37DEE2E81FDE9A6500E453A2 /* UIDevice+CTNetworkingMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+CTNetworkingMethods.m"; sourceTree = "<group>"; };
+		37DEE2EA1FDE9A6500E453A2 /* CTServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTServiceFactory.h; sourceTree = "<group>"; };
+		37DEE2EB1FDE9A6500E453A2 /* CTService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTService.m; sourceTree = "<group>"; };
+		37DEE2EC1FDE9A6500E453A2 /* CTServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTServiceFactory.m; sourceTree = "<group>"; };
+		37DEE2ED1FDE9A6500E453A2 /* CTService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTService.h; sourceTree = "<group>"; };
+		37DEE3071FDE9BC900E453A2 /* RTNetworkingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTNetworkingVC.h; sourceTree = "<group>"; };
+		37DEE3081FDE9BC900E453A2 /* RTNetworkingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTNetworkingVC.m; sourceTree = "<group>"; };
 		37FE64B31FDE83D100937623 /* JDComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FE64B61FDE83D100937623 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37FE64B71FDE83D100937623 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,14 +142,193 @@
 		37DEE2A31FDE85E900E453A2 /* JDNetworkingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				37DEE2AD1FDE9A6500E453A2 /* CTNetworking */,
 				37DEE2A41FDE878100E453A2 /* JDNetworkingDemoViewController.h */,
 				37DEE2A51FDE878100E453A2 /* JDNetworkingDemoViewController.m */,
 				37DEE2A71FDE8A0900E453A2 /* YTKNetworkingVC.h */,
 				37DEE2A81FDE8A0900E453A2 /* YTKNetworkingVC.m */,
+				37DEE3071FDE9BC900E453A2 /* RTNetworkingVC.h */,
+				37DEE3081FDE9BC900E453A2 /* RTNetworkingVC.m */,
 				37DEE2AA1FDE8CBF00E453A2 /* RegisterApi.h */,
 				37DEE2AB1FDE8CBF00E453A2 /* RegisterApi.m */,
 			);
 			path = JDNetworkingDemo;
+			sourceTree = "<group>";
+		};
+		37DEE2AD1FDE9A6500E453A2 /* CTNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2AE1FDE9A6500E453A2 /* Configurations */,
+				37DEE2B41FDE9A6500E453A2 /* Components */,
+				37DEE2CF1FDE9A6500E453A2 /* Generators */,
+				37DEE2D91FDE9A6500E453A2 /* CTNetworking.h */,
+				37DEE2DA1FDE9A6500E453A2 /* Categories */,
+				37DEE2E91FDE9A6500E453A2 /* Services */,
+			);
+			path = CTNetworking;
+			sourceTree = "<group>";
+		};
+		37DEE2AE1FDE9A6500E453A2 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2AF1FDE9A6500E453A2 /* CTLoggerConfiguration.m */,
+				37DEE2B01FDE9A6500E453A2 /* CTNetworkingConfiguration.plist */,
+				37DEE2B11FDE9A6500E453A2 /* CTNetworkingConfigurationManager.m */,
+				37DEE2B21FDE9A6500E453A2 /* CTLoggerConfiguration.h */,
+				37DEE2B31FDE9A6500E453A2 /* CTNetworkingConfigurationManager.h */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		37DEE2B41FDE9A6500E453A2 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2B51FDE9A6500E453A2 /* LogComponents */,
+				37DEE2B81FDE9A6500E453A2 /* URLResponse */,
+				37DEE2BB1FDE9A6500E453A2 /* BaseAPIManager */,
+				37DEE2BE1FDE9A6500E453A2 /* Command */,
+				37DEE2C31FDE9A6500E453A2 /* LocationManager */,
+				37DEE2C61FDE9A6500E453A2 /* iPhoneTypeDefine.plist */,
+				37DEE2C71FDE9A6500E453A2 /* APIProxy */,
+				37DEE2CA1FDE9A6500E453A2 /* CacheComponents */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		37DEE2B51FDE9A6500E453A2 /* LogComponents */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2B61FDE9A6500E453A2 /* CTLogger.h */,
+				37DEE2B71FDE9A6500E453A2 /* CTLogger.m */,
+			);
+			path = LogComponents;
+			sourceTree = "<group>";
+		};
+		37DEE2B81FDE9A6500E453A2 /* URLResponse */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2B91FDE9A6500E453A2 /* CTURLResponse.h */,
+				37DEE2BA1FDE9A6500E453A2 /* CTURLResponse.m */,
+			);
+			path = URLResponse;
+			sourceTree = "<group>";
+		};
+		37DEE2BB1FDE9A6500E453A2 /* BaseAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2BC1FDE9A6500E453A2 /* CTAPIBaseManager.m */,
+				37DEE2BD1FDE9A6500E453A2 /* CTAPIBaseManager.h */,
+			);
+			path = BaseAPIManager;
+			sourceTree = "<group>";
+		};
+		37DEE2BE1FDE9A6500E453A2 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2BF1FDE9A6500E453A2 /* LGBaseAPICommand.m */,
+				37DEE2C01FDE9A6500E453A2 /* CLBasicCommand.h */,
+				37DEE2C11FDE9A6500E453A2 /* LGBaseAPICommand.h */,
+				37DEE2C21FDE9A6500E453A2 /* CLBasicCommand.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
+		37DEE2C31FDE9A6500E453A2 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2C41FDE9A6500E453A2 /* CTLocationManager.m */,
+				37DEE2C51FDE9A6500E453A2 /* CTLocationManager.h */,
+			);
+			path = LocationManager;
+			sourceTree = "<group>";
+		};
+		37DEE2C71FDE9A6500E453A2 /* APIProxy */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2C81FDE9A6500E453A2 /* CTApiProxy.h */,
+				37DEE2C91FDE9A6500E453A2 /* CTApiProxy.m */,
+			);
+			path = APIProxy;
+			sourceTree = "<group>";
+		};
+		37DEE2CA1FDE9A6500E453A2 /* CacheComponents */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2CB1FDE9A6500E453A2 /* CTCache.m */,
+				37DEE2CC1FDE9A6500E453A2 /* CTCachedObject.m */,
+				37DEE2CD1FDE9A6500E453A2 /* CTCache.h */,
+				37DEE2CE1FDE9A6500E453A2 /* CTCachedObject.h */,
+			);
+			path = CacheComponents;
+			sourceTree = "<group>";
+		};
+		37DEE2CF1FDE9A6500E453A2 /* Generators */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2D01FDE9A6500E453A2 /* RequestGenerator */,
+				37DEE2D31FDE9A6500E453A2 /* SignatureGenerator */,
+				37DEE2D61FDE9A6500E453A2 /* CommonParamsGenerator */,
+			);
+			path = Generators;
+			sourceTree = "<group>";
+		};
+		37DEE2D01FDE9A6500E453A2 /* RequestGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2D11FDE9A6500E453A2 /* CTRequestGenerator.m */,
+				37DEE2D21FDE9A6500E453A2 /* CTRequestGenerator.h */,
+			);
+			path = RequestGenerator;
+			sourceTree = "<group>";
+		};
+		37DEE2D31FDE9A6500E453A2 /* SignatureGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2D41FDE9A6500E453A2 /* CTSignatureGenerator.m */,
+				37DEE2D51FDE9A6500E453A2 /* CTSignatureGenerator.h */,
+			);
+			path = SignatureGenerator;
+			sourceTree = "<group>";
+		};
+		37DEE2D61FDE9A6500E453A2 /* CommonParamsGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2D71FDE9A6500E453A2 /* CTCommonParamsGenerator.h */,
+				37DEE2D81FDE9A6500E453A2 /* CTCommonParamsGenerator.m */,
+			);
+			path = CommonParamsGenerator;
+			sourceTree = "<group>";
+		};
+		37DEE2DA1FDE9A6500E453A2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2DB1FDE9A6500E453A2 /* NSObject+CTNetworkingMethods.h */,
+				37DEE2DC1FDE9A6500E453A2 /* NSURLRequest+CTNetworkingMethods.h */,
+				37DEE2DD1FDE9A6500E453A2 /* NSMutableString+CTNetworkingMethods.h */,
+				37DEE2DE1FDE9A6500E453A2 /* NSDictionary+CTNetworkingMethods.h */,
+				37DEE2DF1FDE9A6500E453A2 /* NSString+CTNetworkingMethods.h */,
+				37DEE2E01FDE9A6500E453A2 /* NSArray+CTNetworkingMethods.h */,
+				37DEE2E11FDE9A6500E453A2 /* UIDevice+CTNetworkingMethods.h */,
+				37DEE2E21FDE9A6500E453A2 /* NSURLRequest+CTNetworkingMethods.m */,
+				37DEE2E31FDE9A6500E453A2 /* NSObject+CTNetworkingMethods.m */,
+				37DEE2E41FDE9A6500E453A2 /* NSString+CTNetworkingMethods.m */,
+				37DEE2E51FDE9A6500E453A2 /* NSArray+CTNetworkingMethods.m */,
+				37DEE2E61FDE9A6500E453A2 /* NSDictionary+CTNetworkingMethods.m */,
+				37DEE2E71FDE9A6500E453A2 /* NSMutableString+CTNetworkingMethods.m */,
+				37DEE2E81FDE9A6500E453A2 /* UIDevice+CTNetworkingMethods.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		37DEE2E91FDE9A6500E453A2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				37DEE2EA1FDE9A6500E453A2 /* CTServiceFactory.h */,
+				37DEE2EB1FDE9A6500E453A2 /* CTService.m */,
+				37DEE2EC1FDE9A6500E453A2 /* CTServiceFactory.m */,
+				37DEE2ED1FDE9A6500E453A2 /* CTService.h */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		37FE64AA1FDE83D100937623 = {
@@ -179,6 +435,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DEE2EF1FDE9A6500E453A2 /* CTNetworkingConfiguration.plist in Resources */,
+				37DEE2F71FDE9A6500E453A2 /* iPhoneTypeDefine.plist in Resources */,
 				37FE64C31FDE83D100937623 /* LaunchScreen.storyboard in Resources */,
 				37FE64C01FDE83D100937623 /* Assets.xcassets in Resources */,
 				37FE64BE1FDE83D100937623 /* Main.storyboard in Resources */,
@@ -243,12 +501,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37DEE2FC1FDE9A6500E453A2 /* CTSignatureGenerator.m in Sources */,
+				37DEE3041FDE9A6500E453A2 /* UIDevice+CTNetworkingMethods.m in Sources */,
+				37DEE2F81FDE9A6500E453A2 /* CTApiProxy.m in Sources */,
+				37DEE2FE1FDE9A6500E453A2 /* NSURLRequest+CTNetworkingMethods.m in Sources */,
+				37DEE2F41FDE9A6500E453A2 /* LGBaseAPICommand.m in Sources */,
+				37DEE3031FDE9A6500E453A2 /* NSMutableString+CTNetworkingMethods.m in Sources */,
+				37DEE2FD1FDE9A6500E453A2 /* CTCommonParamsGenerator.m in Sources */,
+				37DEE2F51FDE9A6500E453A2 /* CLBasicCommand.m in Sources */,
 				37FE64BB1FDE83D100937623 /* ViewController.m in Sources */,
 				37FE64C61FDE83D100937623 /* main.m in Sources */,
 				37DEE2A61FDE878100E453A2 /* JDNetworkingDemoViewController.m in Sources */,
+				37DEE2F01FDE9A6500E453A2 /* CTNetworkingConfigurationManager.m in Sources */,
+				37DEE3091FDE9BC900E453A2 /* RTNetworkingVC.m in Sources */,
 				37DEE2AC1FDE8CBF00E453A2 /* RegisterApi.m in Sources */,
+				37DEE2FF1FDE9A6500E453A2 /* NSObject+CTNetworkingMethods.m in Sources */,
+				37DEE3021FDE9A6500E453A2 /* NSDictionary+CTNetworkingMethods.m in Sources */,
 				37FE64B81FDE83D100937623 /* AppDelegate.m in Sources */,
+				37DEE2EE1FDE9A6500E453A2 /* CTLoggerConfiguration.m in Sources */,
+				37DEE3011FDE9A6500E453A2 /* NSArray+CTNetworkingMethods.m in Sources */,
+				37DEE3061FDE9A6500E453A2 /* CTServiceFactory.m in Sources */,
+				37DEE3001FDE9A6500E453A2 /* NSString+CTNetworkingMethods.m in Sources */,
+				37DEE2F61FDE9A6500E453A2 /* CTLocationManager.m in Sources */,
 				37DEE2A91FDE8A0900E453A2 /* YTKNetworkingVC.m in Sources */,
+				37DEE2F31FDE9A6500E453A2 /* CTAPIBaseManager.m in Sources */,
+				37DEE2F11FDE9A6500E453A2 /* CTLogger.m in Sources */,
+				37DEE2FB1FDE9A6500E453A2 /* CTRequestGenerator.m in Sources */,
+				37DEE2FA1FDE9A6500E453A2 /* CTCachedObject.m in Sources */,
+				37DEE2F21FDE9A6500E453A2 /* CTURLResponse.m in Sources */,
+				37DEE3051FDE9A6500E453A2 /* CTService.m in Sources */,
+				37DEE2F91FDE9A6500E453A2 /* CTCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

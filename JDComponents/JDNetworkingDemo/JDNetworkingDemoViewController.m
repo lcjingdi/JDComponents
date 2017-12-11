@@ -11,6 +11,8 @@
 
 NSString * const kDataSourceItemKeyYTKNetworking = @"kDataSourceItemKeyYTKNetworking";
 NSString * const kDataSourceItemKeyYTKTitle = @"kDataSourceItemKeyYTKTitle";
+NSString * const kDataSourceItemKeyRTNetworking = @"kDataSourceItemKeyRTNetworking";
+NSString * const kDataSourceItemKeyRTTitle = @"kDataSourceItemKeyRTTitle";
 
 @interface JDNetworkingDemoViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView  *tableView;
@@ -57,6 +59,9 @@ NSString * const kDataSourceItemKeyYTKTitle = @"kDataSourceItemKeyYTKTitle";
                         @{
                             kDataSourceItemKeyYTKNetworking:@"YTKNetworkingVC",
                             kDataSourceItemKeyYTKTitle:@"测试猿题库网络框架"
+                            },
+                        @{  kDataSourceItemKeyRTNetworking:@"RTNetworkingVC",
+                            kDataSourceItemKeyRTTitle:@"测试RT网络框架"
                             }
                         ];
     }
