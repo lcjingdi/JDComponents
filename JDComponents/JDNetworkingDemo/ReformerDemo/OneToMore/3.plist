@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>status</key>
+	<string></string>
+	<key>data</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>我是主标题1</string>
+			<key>imageName</key>
+			<string>meinv2</string>
+			<key>detailTitle</key>
+			<string>我是子标题1</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>我是主标题2</string>
+			<key>imageName</key>
+			<string>meinv1</string>
+			<key>detailTitle</key>
+			<string>我是子标题2</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>我是主标题3</string>
+			<key>imageName</key>
+			<string>meinv3</string>
+			<key>detailTitle</key>
+			<string>我是子标题3</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>我是主标题4</string>
+			<key>imageName</key>
+			<string>meinv4</string>
+			<key>detailTitle</key>
+			<string>我是子标题4</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>我是主标题5</string>
+			<key>imageName</key>
+			<string>meinv5</string>
+			<key>detailTitle</key>
+			<string>我是子标题5</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>我是主标题6</string>
+			<key>imageName</key>
+			<string>meinv6</string>
+			<key>detailTitle</key>
+			<string>我是子标题6</string>
+		</dict>
+	</array>
+</dict>
+</plist>

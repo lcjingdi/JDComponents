@@ -9,10 +9,8 @@
 #import "JDNetworkingDemoViewController.h"
 #import <HandyFrame/UIView+LayoutMethods.h>
 
-NSString * const kDataSourceItemKeyYTKNetworking = @"kDataSourceItemKeyYTKNetworking";
-NSString * const kDataSourceItemKeyYTKTitle = @"kDataSourceItemKeyYTKTitle";
-NSString * const kDataSourceItemKeyRTNetworking = @"kDataSourceItemKeyRTNetworking";
-NSString * const kDataSourceItemKeyRTTitle = @"kDataSourceItemKeyRTTitle";
+NSString * const kDataSourceItemKeyType = @"kDataSourceItemKeyYTKNetworking";
+NSString * const kDataSourceItemKeyTitle = @"kDataSourceItemKeyYTKTitle";
 
 @interface JDNetworkingDemoViewController ()<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) UITableView  *tableView;
@@ -42,11 +40,11 @@ NSString * const kDataSourceItemKeyRTTitle = @"kDataSourceItemKeyRTTitle";
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.textLabel.text = self.dataSource[indexPath.row][kDataSourceItemKeyYTKTitle];
+    cell.textLabel.text = self.dataSource[indexPath.row][kDataSourceItemKeyTitle];
     return cell;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSString *classString = self.dataSource[indexPath.row][kDataSourceItemKeyYTKNetworking];
+    NSString *classString = self.dataSource[indexPath.row][kDataSourceItemKeyType];
     Class class = NSClassFromString(classString);
     UIViewController *vc = [[class alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
@@ -57,12 +55,18 @@ NSString * const kDataSourceItemKeyRTTitle = @"kDataSourceItemKeyRTTitle";
     if (_dataSource == nil) {
         _dataSource = @[
                         @{
-                            kDataSourceItemKeyYTKNetworking:@"YTKNetworkingVC",
-                            kDataSourceItemKeyYTKTitle:@"测试猿题库网络框架"
+                            kDataSourceItemKeyType:@"YTKNetworkingVC",
+                            kDataSourceItemKeyTitle:@"测试猿题库网络框架",
                             },
-                        @{  kDataSourceItemKeyRTNetworking:@"RTNetworkingVC",
-                            kDataSourceItemKeyRTTitle:@"测试RT网络框架"
-                            }
+                        @{  kDataSourceItemKeyType:@"RTNetworkingVC",
+                            kDataSourceItemKeyTitle:@"测试RT网络框架"
+                            },
+                        @{  kDataSourceItemKeyType:@"ReformerMoreToOneVC",
+                            kDataSourceItemKeyTitle:@"测试Reformer多接口对应同一view"
+                            },
+                        @{  kDataSourceItemKeyType:@"ReformerOntToMoreVC",
+                            kDataSourceItemKeyTitle:@"测试Reformer一个view接收多个接口数据"
+                            },
                         ];
     }
     return _dataSource;

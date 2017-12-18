@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3768FC9A1FE22B9D00B229AC /* YTKNetworkingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FC931FE22B9D00B229AC /* YTKNetworkingVC.m */; };
+		3768FC9B1FE22B9D00B229AC /* RegisterApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FC941FE22B9D00B229AC /* RegisterApi.m */; };
+		3768FC9C1FE22B9D00B229AC /* RTNetworkingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FC991FE22B9D00B229AC /* RTNetworkingVC.m */; };
+		3768FCA61FE2541100B229AC /* ReformerMoreToOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FCA51FE2541100B229AC /* ReformerMoreToOneVC.m */; };
+		3768FCA91FE2541D00B229AC /* ReformerOntToMoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FCA81FE2541D00B229AC /* ReformerOntToMoreVC.m */; };
+		3768FCAB1FE2645300B229AC /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3768FCAA1FE2645300B229AC /* 1.plist */; };
+		3768FCAD1FE2645C00B229AC /* 2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3768FCAC1FE2645C00B229AC /* 2.plist */; };
+		3768FCBB1FE28B4300B229AC /* ABusinessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FCBA1FE28B4300B229AC /* ABusinessManager.m */; };
+		3768FCBE1FE28B4F00B229AC /* BBusinessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FCBD1FE28B4F00B229AC /* BBusinessManager.m */; };
+		3768FCC31FE3C27B00B229AC /* ARefomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FCC21FE3C27B00B229AC /* ARefomer.m */; };
+		37D44BD11FE7B721006CBD30 /* 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37D44BD01FE7B721006CBD30 /* 3.plist */; };
+		37D44BD41FE7B7AF006CBD30 /* V1Reformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D44BD31FE7B7AF006CBD30 /* V1Reformer.m */; };
+		37D44BD71FE7B7B8006CBD30 /* V2Reformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D44BD61FE7B7B8006CBD30 /* V2Reformer.m */; };
+		37D44BDC1FE7B848006CBD30 /* VBusinessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D44BDB1FE7B848006CBD30 /* VBusinessManager.m */; };
 		37DEE2A61FDE878100E453A2 /* JDNetworkingDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2A51FDE878100E453A2 /* JDNetworkingDemoViewController.m */; };
-		37DEE2A91FDE8A0900E453A2 /* YTKNetworkingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2A81FDE8A0900E453A2 /* YTKNetworkingVC.m */; };
-		37DEE2AC1FDE8CBF00E453A2 /* RegisterApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2AB1FDE8CBF00E453A2 /* RegisterApi.m */; };
 		37DEE2EE1FDE9A6500E453A2 /* CTLoggerConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2AF1FDE9A6500E453A2 /* CTLoggerConfiguration.m */; };
 		37DEE2EF1FDE9A6500E453A2 /* CTNetworkingConfiguration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37DEE2B01FDE9A6500E453A2 /* CTNetworkingConfiguration.plist */; };
 		37DEE2F01FDE9A6500E453A2 /* CTNetworkingConfigurationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2B11FDE9A6500E453A2 /* CTNetworkingConfigurationManager.m */; };
@@ -35,7 +47,6 @@
 		37DEE3041FDE9A6500E453A2 /* UIDevice+CTNetworkingMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2E81FDE9A6500E453A2 /* UIDevice+CTNetworkingMethods.m */; };
 		37DEE3051FDE9A6500E453A2 /* CTService.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2EB1FDE9A6500E453A2 /* CTService.m */; };
 		37DEE3061FDE9A6500E453A2 /* CTServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE2EC1FDE9A6500E453A2 /* CTServiceFactory.m */; };
-		37DEE3091FDE9BC900E453A2 /* RTNetworkingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DEE3081FDE9BC900E453A2 /* RTNetworkingVC.m */; };
 		37FE64B81FDE83D100937623 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE64B71FDE83D100937623 /* AppDelegate.m */; };
 		37FE64BB1FDE83D100937623 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE64BA1FDE83D100937623 /* ViewController.m */; };
 		37FE64BE1FDE83D100937623 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FE64BC1FDE83D100937623 /* Main.storyboard */; };
@@ -46,12 +57,37 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3768FC931FE22B9D00B229AC /* YTKNetworkingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkingVC.m; sourceTree = "<group>"; };
+		3768FC941FE22B9D00B229AC /* RegisterApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterApi.m; sourceTree = "<group>"; };
+		3768FC951FE22B9D00B229AC /* YTKNetworkingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkingVC.h; sourceTree = "<group>"; };
+		3768FC961FE22B9D00B229AC /* RegisterApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterApi.h; sourceTree = "<group>"; };
+		3768FC981FE22B9D00B229AC /* RTNetworkingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTNetworkingVC.h; sourceTree = "<group>"; };
+		3768FC991FE22B9D00B229AC /* RTNetworkingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTNetworkingVC.m; sourceTree = "<group>"; };
+		3768FCA41FE2541100B229AC /* ReformerMoreToOneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReformerMoreToOneVC.h; sourceTree = "<group>"; };
+		3768FCA51FE2541100B229AC /* ReformerMoreToOneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReformerMoreToOneVC.m; sourceTree = "<group>"; };
+		3768FCA71FE2541D00B229AC /* ReformerOntToMoreVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReformerOntToMoreVC.h; sourceTree = "<group>"; };
+		3768FCA81FE2541D00B229AC /* ReformerOntToMoreVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReformerOntToMoreVC.m; sourceTree = "<group>"; };
+		3768FCAA1FE2645300B229AC /* 1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		3768FCAC1FE2645C00B229AC /* 2.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = 2.plist; sourceTree = "<group>"; };
+		3768FCB91FE28B4300B229AC /* ABusinessManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABusinessManager.h; sourceTree = "<group>"; };
+		3768FCBA1FE28B4300B229AC /* ABusinessManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABusinessManager.m; sourceTree = "<group>"; };
+		3768FCBC1FE28B4F00B229AC /* BBusinessManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBusinessManager.h; sourceTree = "<group>"; };
+		3768FCBD1FE28B4F00B229AC /* BBusinessManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBusinessManager.m; sourceTree = "<group>"; };
+		3768FCBF1FE28C7200B229AC /* ReformerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReformerProtocol.h; sourceTree = "<group>"; };
+		3768FCC01FE3C00E00B229AC /* ReformerKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReformerKeys.h; sourceTree = "<group>"; };
+		3768FCC11FE3C27B00B229AC /* ARefomer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARefomer.h; sourceTree = "<group>"; };
+		3768FCC21FE3C27B00B229AC /* ARefomer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARefomer.m; sourceTree = "<group>"; };
+		37D44BD01FE7B721006CBD30 /* 3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = 3.plist; sourceTree = "<group>"; };
+		37D44BD21FE7B7AF006CBD30 /* V1Reformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V1Reformer.h; sourceTree = "<group>"; };
+		37D44BD31FE7B7AF006CBD30 /* V1Reformer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V1Reformer.m; sourceTree = "<group>"; };
+		37D44BD51FE7B7B8006CBD30 /* V2Reformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V2Reformer.h; sourceTree = "<group>"; };
+		37D44BD61FE7B7B8006CBD30 /* V2Reformer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V2Reformer.m; sourceTree = "<group>"; };
+		37D44BD81FE7B808006CBD30 /* ReformerKeysV1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReformerKeysV1.h; sourceTree = "<group>"; };
+		37D44BD91FE7B810006CBD30 /* ReformerKeysV2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReformerKeysV2.h; sourceTree = "<group>"; };
+		37D44BDA1FE7B848006CBD30 /* VBusinessManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VBusinessManager.h; sourceTree = "<group>"; };
+		37D44BDB1FE7B848006CBD30 /* VBusinessManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VBusinessManager.m; sourceTree = "<group>"; };
 		37DEE2A41FDE878100E453A2 /* JDNetworkingDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDNetworkingDemoViewController.h; sourceTree = "<group>"; };
 		37DEE2A51FDE878100E453A2 /* JDNetworkingDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDNetworkingDemoViewController.m; sourceTree = "<group>"; };
-		37DEE2A71FDE8A0900E453A2 /* YTKNetworkingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTKNetworkingVC.h; sourceTree = "<group>"; };
-		37DEE2A81FDE8A0900E453A2 /* YTKNetworkingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkingVC.m; sourceTree = "<group>"; };
-		37DEE2AA1FDE8CBF00E453A2 /* RegisterApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterApi.h; sourceTree = "<group>"; };
-		37DEE2AB1FDE8CBF00E453A2 /* RegisterApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterApi.m; sourceTree = "<group>"; };
 		37DEE2AF1FDE9A6500E453A2 /* CTLoggerConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTLoggerConfiguration.m; sourceTree = "<group>"; };
 		37DEE2B01FDE9A6500E453A2 /* CTNetworkingConfiguration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CTNetworkingConfiguration.plist; sourceTree = "<group>"; };
 		37DEE2B11FDE9A6500E453A2 /* CTNetworkingConfigurationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTNetworkingConfigurationManager.m; sourceTree = "<group>"; };
@@ -101,8 +137,6 @@
 		37DEE2EB1FDE9A6500E453A2 /* CTService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTService.m; sourceTree = "<group>"; };
 		37DEE2EC1FDE9A6500E453A2 /* CTServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTServiceFactory.m; sourceTree = "<group>"; };
 		37DEE2ED1FDE9A6500E453A2 /* CTService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTService.h; sourceTree = "<group>"; };
-		37DEE3071FDE9BC900E453A2 /* RTNetworkingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTNetworkingVC.h; sourceTree = "<group>"; };
-		37DEE3081FDE9BC900E453A2 /* RTNetworkingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RTNetworkingVC.m; sourceTree = "<group>"; };
 		37FE64B31FDE83D100937623 /* JDComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FE64B61FDE83D100937623 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37FE64B71FDE83D100937623 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -139,18 +173,81 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		3768FC911FE22B9D00B229AC /* ReformerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3768FCC51FE3C83F00B229AC /* OneToMore */,
+				3768FCC41FE3C82200B229AC /* MoreToOne */,
+			);
+			path = ReformerDemo;
+			sourceTree = "<group>";
+		};
+		3768FC921FE22B9D00B229AC /* YTKNetworkingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3768FC931FE22B9D00B229AC /* YTKNetworkingVC.m */,
+				3768FC941FE22B9D00B229AC /* RegisterApi.m */,
+				3768FC951FE22B9D00B229AC /* YTKNetworkingVC.h */,
+				3768FC961FE22B9D00B229AC /* RegisterApi.h */,
+			);
+			path = YTKNetworkingDemo;
+			sourceTree = "<group>";
+		};
+		3768FC971FE22B9D00B229AC /* CTNetworkingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3768FC981FE22B9D00B229AC /* RTNetworkingVC.h */,
+				3768FC991FE22B9D00B229AC /* RTNetworkingVC.m */,
+			);
+			path = CTNetworkingDemo;
+			sourceTree = "<group>";
+		};
+		3768FCC41FE3C82200B229AC /* MoreToOne */ = {
+			isa = PBXGroup;
+			children = (
+				3768FCA41FE2541100B229AC /* ReformerMoreToOneVC.h */,
+				3768FCA51FE2541100B229AC /* ReformerMoreToOneVC.m */,
+				3768FCAA1FE2645300B229AC /* 1.plist */,
+				3768FCAC1FE2645C00B229AC /* 2.plist */,
+				3768FCC11FE3C27B00B229AC /* ARefomer.h */,
+				3768FCC21FE3C27B00B229AC /* ARefomer.m */,
+				3768FCC01FE3C00E00B229AC /* ReformerKeys.h */,
+				3768FCB91FE28B4300B229AC /* ABusinessManager.h */,
+				3768FCBA1FE28B4300B229AC /* ABusinessManager.m */,
+				3768FCBC1FE28B4F00B229AC /* BBusinessManager.h */,
+				3768FCBD1FE28B4F00B229AC /* BBusinessManager.m */,
+				3768FCBF1FE28C7200B229AC /* ReformerProtocol.h */,
+			);
+			path = MoreToOne;
+			sourceTree = "<group>";
+		};
+		3768FCC51FE3C83F00B229AC /* OneToMore */ = {
+			isa = PBXGroup;
+			children = (
+				3768FCA71FE2541D00B229AC /* ReformerOntToMoreVC.h */,
+				3768FCA81FE2541D00B229AC /* ReformerOntToMoreVC.m */,
+				37D44BD01FE7B721006CBD30 /* 3.plist */,
+				37D44BD21FE7B7AF006CBD30 /* V1Reformer.h */,
+				37D44BD31FE7B7AF006CBD30 /* V1Reformer.m */,
+				37D44BD51FE7B7B8006CBD30 /* V2Reformer.h */,
+				37D44BD61FE7B7B8006CBD30 /* V2Reformer.m */,
+				37D44BD81FE7B808006CBD30 /* ReformerKeysV1.h */,
+				37D44BD91FE7B810006CBD30 /* ReformerKeysV2.h */,
+				37D44BDA1FE7B848006CBD30 /* VBusinessManager.h */,
+				37D44BDB1FE7B848006CBD30 /* VBusinessManager.m */,
+			);
+			path = OneToMore;
+			sourceTree = "<group>";
+		};
 		37DEE2A31FDE85E900E453A2 /* JDNetworkingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				3768FC971FE22B9D00B229AC /* CTNetworkingDemo */,
+				3768FC911FE22B9D00B229AC /* ReformerDemo */,
+				3768FC921FE22B9D00B229AC /* YTKNetworkingDemo */,
 				37DEE2AD1FDE9A6500E453A2 /* CTNetworking */,
 				37DEE2A41FDE878100E453A2 /* JDNetworkingDemoViewController.h */,
 				37DEE2A51FDE878100E453A2 /* JDNetworkingDemoViewController.m */,
-				37DEE2A71FDE8A0900E453A2 /* YTKNetworkingVC.h */,
-				37DEE2A81FDE8A0900E453A2 /* YTKNetworkingVC.m */,
-				37DEE3071FDE9BC900E453A2 /* RTNetworkingVC.h */,
-				37DEE3081FDE9BC900E453A2 /* RTNetworkingVC.m */,
-				37DEE2AA1FDE8CBF00E453A2 /* RegisterApi.h */,
-				37DEE2AB1FDE8CBF00E453A2 /* RegisterApi.m */,
 			);
 			path = JDNetworkingDemo;
 			sourceTree = "<group>";
@@ -435,8 +532,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3768FCAB1FE2645300B229AC /* 1.plist in Resources */,
 				37DEE2EF1FDE9A6500E453A2 /* CTNetworkingConfiguration.plist in Resources */,
 				37DEE2F71FDE9A6500E453A2 /* iPhoneTypeDefine.plist in Resources */,
+				3768FCAD1FE2645C00B229AC /* 2.plist in Resources */,
+				37D44BD11FE7B721006CBD30 /* 3.plist in Resources */,
 				37FE64C31FDE83D100937623 /* LaunchScreen.storyboard in Resources */,
 				37FE64C01FDE83D100937623 /* Assets.xcassets in Resources */,
 				37FE64BE1FDE83D100937623 /* Main.storyboard in Resources */,
@@ -506,30 +606,38 @@
 				37DEE2F81FDE9A6500E453A2 /* CTApiProxy.m in Sources */,
 				37DEE2FE1FDE9A6500E453A2 /* NSURLRequest+CTNetworkingMethods.m in Sources */,
 				37DEE2F41FDE9A6500E453A2 /* LGBaseAPICommand.m in Sources */,
+				3768FCBB1FE28B4300B229AC /* ABusinessManager.m in Sources */,
 				37DEE3031FDE9A6500E453A2 /* NSMutableString+CTNetworkingMethods.m in Sources */,
 				37DEE2FD1FDE9A6500E453A2 /* CTCommonParamsGenerator.m in Sources */,
+				3768FCA61FE2541100B229AC /* ReformerMoreToOneVC.m in Sources */,
 				37DEE2F51FDE9A6500E453A2 /* CLBasicCommand.m in Sources */,
 				37FE64BB1FDE83D100937623 /* ViewController.m in Sources */,
+				3768FCC31FE3C27B00B229AC /* ARefomer.m in Sources */,
 				37FE64C61FDE83D100937623 /* main.m in Sources */,
 				37DEE2A61FDE878100E453A2 /* JDNetworkingDemoViewController.m in Sources */,
+				3768FC9B1FE22B9D00B229AC /* RegisterApi.m in Sources */,
+				3768FC9C1FE22B9D00B229AC /* RTNetworkingVC.m in Sources */,
+				3768FCA91FE2541D00B229AC /* ReformerOntToMoreVC.m in Sources */,
 				37DEE2F01FDE9A6500E453A2 /* CTNetworkingConfigurationManager.m in Sources */,
-				37DEE3091FDE9BC900E453A2 /* RTNetworkingVC.m in Sources */,
-				37DEE2AC1FDE8CBF00E453A2 /* RegisterApi.m in Sources */,
 				37DEE2FF1FDE9A6500E453A2 /* NSObject+CTNetworkingMethods.m in Sources */,
+				3768FC9A1FE22B9D00B229AC /* YTKNetworkingVC.m in Sources */,
+				37D44BD41FE7B7AF006CBD30 /* V1Reformer.m in Sources */,
 				37DEE3021FDE9A6500E453A2 /* NSDictionary+CTNetworkingMethods.m in Sources */,
 				37FE64B81FDE83D100937623 /* AppDelegate.m in Sources */,
 				37DEE2EE1FDE9A6500E453A2 /* CTLoggerConfiguration.m in Sources */,
 				37DEE3011FDE9A6500E453A2 /* NSArray+CTNetworkingMethods.m in Sources */,
 				37DEE3061FDE9A6500E453A2 /* CTServiceFactory.m in Sources */,
+				37D44BDC1FE7B848006CBD30 /* VBusinessManager.m in Sources */,
 				37DEE3001FDE9A6500E453A2 /* NSString+CTNetworkingMethods.m in Sources */,
 				37DEE2F61FDE9A6500E453A2 /* CTLocationManager.m in Sources */,
-				37DEE2A91FDE8A0900E453A2 /* YTKNetworkingVC.m in Sources */,
 				37DEE2F31FDE9A6500E453A2 /* CTAPIBaseManager.m in Sources */,
 				37DEE2F11FDE9A6500E453A2 /* CTLogger.m in Sources */,
 				37DEE2FB1FDE9A6500E453A2 /* CTRequestGenerator.m in Sources */,
 				37DEE2FA1FDE9A6500E453A2 /* CTCachedObject.m in Sources */,
 				37DEE2F21FDE9A6500E453A2 /* CTURLResponse.m in Sources */,
 				37DEE3051FDE9A6500E453A2 /* CTService.m in Sources */,
+				37D44BD71FE7B7B8006CBD30 /* V2Reformer.m in Sources */,
+				3768FCBE1FE28B4F00B229AC /* BBusinessManager.m in Sources */,
 				37DEE2F91FDE9A6500E453A2 /* CTCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
