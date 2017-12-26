@@ -8,8 +8,8 @@
 
 #import "ViewController.h"
 
-NSString * const kDataSourceItemKeyYTKNetworkType = @"kDataSourceItemKeyYTKNetworkType";
-NSString * const kDataSourceItemKeyYTKNetworkTitle = @"kDataSourceItemKeyYTKNetworkTitle";
+NSString * const kDataSourceItemKeyType = @"kDataSourceItemKeyType";
+NSString * const kDataSourceItemKeyTitle = @"kDataSourceItemKeyTitle";
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
 @property (nonatomic, strong) NSArray  *dataSource;
@@ -29,14 +29,14 @@ NSString * const kDataSourceItemKeyYTKNetworkTitle = @"kDataSourceItemKeyYTKNetw
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"cell"];
     }
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    cell.textLabel.text = self.dataSource[indexPath.row][kDataSourceItemKeyYTKNetworkTitle];
+    cell.textLabel.text = self.dataSource[indexPath.row][kDataSourceItemKeyTitle];
     return cell;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return self.dataSource.count;
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSString *classString = self.dataSource[indexPath.row][kDataSourceItemKeyYTKNetworkType];
+    NSString *classString = self.dataSource[indexPath.row][kDataSourceItemKeyType];
     Class class = NSClassFromString(classString);
     UIViewController *vc = [[class alloc] init];
     [self.navigationController pushViewController:vc animated:YES];
@@ -45,9 +45,17 @@ NSString * const kDataSourceItemKeyYTKNetworkTitle = @"kDataSourceItemKeyYTKNetw
     if (_dataSource == nil) {
         _dataSource = @[
                         @{
-                            kDataSourceItemKeyYTKNetworkType: @"JDNetworkingDemoViewController",
-                            kDataSourceItemKeyYTKNetworkTitle:@"测试网络"
-                        }
+                            kDataSourceItemKeyType: @"JDNetworkingDemoViewController",
+                            kDataSourceItemKeyTitle:@"测试网络"
+                        },
+                        @{
+                            kDataSourceItemKeyType: @"CLLoggerVC",
+                            kDataSourceItemKeyTitle:@"测试日志系统"
+                            },
+                        @{
+                            kDataSourceItemKeyType: @"FDTemplateLayoutCellVC",
+                            kDataSourceItemKeyTitle:@"测试FDTemplateLayoutCell"
+                            }
                         ];
     }
     return _dataSource;

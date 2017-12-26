@@ -14,19 +14,30 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.3.0):
+    - CocoaLumberjack/Default (= 3.3.0)
+    - CocoaLumberjack/Extensions (= 3.3.0)
+  - CocoaLumberjack/Default (3.3.0)
+  - CocoaLumberjack/Extensions (3.3.0):
+    - CocoaLumberjack/Default
+  - FDTemplateLayoutCell (1.0.0)
   - HandyFrame (1.2.0)
   - YTKNetwork (2.0.4):
     - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
+  - CocoaLumberjack
+  - FDTemplateLayoutCell (~> 1.0.0)
   - HandyFrame
   - YTKNetwork
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: 3c8c74683302f9012bb168e1c4b7ae3c0b558431
+  FDTemplateLayoutCell: 1157ea6cb83019ee0aa27f6f533208b43a57666d
   HandyFrame: 437df83ba7563c56cd55b9bd0128561995463110
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
 
-PODFILE CHECKSUM: 3bde1bfdcd170b796e12a5c7e6568ed08efbd26b
+PODFILE CHECKSUM: 8f83ab0e87dcde4e4404659936c2938fcac57623
 
 COCOAPODS: 1.3.1

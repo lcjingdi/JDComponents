@@ -100,6 +100,21 @@ strip_invalid_archs() {
   fi
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FDTemplateLayoutCell/FDTemplateLayoutCell.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HandyFrame/HandyFrame.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FDTemplateLayoutCell/FDTemplateLayoutCell.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/HandyFrame/HandyFrame.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework"
+fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3710B2E51FE9205C003F2A40 /* CLLoggerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3710B2E41FE9205C003F2A40 /* CLLoggerVC.m */; };
 		3768FC9A1FE22B9D00B229AC /* YTKNetworkingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FC931FE22B9D00B229AC /* YTKNetworkingVC.m */; };
 		3768FC9B1FE22B9D00B229AC /* RegisterApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FC941FE22B9D00B229AC /* RegisterApi.m */; };
 		3768FC9C1FE22B9D00B229AC /* RTNetworkingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FC991FE22B9D00B229AC /* RTNetworkingVC.m */; };
@@ -17,6 +18,7 @@
 		3768FCBB1FE28B4300B229AC /* ABusinessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FCBA1FE28B4300B229AC /* ABusinessManager.m */; };
 		3768FCBE1FE28B4F00B229AC /* BBusinessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FCBD1FE28B4F00B229AC /* BBusinessManager.m */; };
 		3768FCC31FE3C27B00B229AC /* ARefomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FCC21FE3C27B00B229AC /* ARefomer.m */; };
+		37D06B951FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D06B941FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m */; };
 		37D44BD11FE7B721006CBD30 /* 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37D44BD01FE7B721006CBD30 /* 3.plist */; };
 		37D44BD41FE7B7AF006CBD30 /* V1Reformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D44BD31FE7B7AF006CBD30 /* V1Reformer.m */; };
 		37D44BD71FE7B7B8006CBD30 /* V2Reformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D44BD61FE7B7B8006CBD30 /* V2Reformer.m */; };
@@ -53,10 +55,12 @@
 		37FE64C01FDE83D100937623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FE64BF1FDE83D100937623 /* Assets.xcassets */; };
 		37FE64C31FDE83D100937623 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FE64C11FDE83D100937623 /* LaunchScreen.storyboard */; };
 		37FE64C61FDE83D100937623 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FE64C51FDE83D100937623 /* main.m */; };
-		520DBD02F7803B68728A99CA /* libPods-JDComponents.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD6415E0336CE674E06A95D5 /* libPods-JDComponents.a */; };
+		84F88FC1EE9DE7D18B356768 /* Pods_JDComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98F54C7BB4EA4E550CB607E /* Pods_JDComponents.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3710B2E31FE9205C003F2A40 /* CLLoggerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLoggerVC.h; sourceTree = "<group>"; };
+		3710B2E41FE9205C003F2A40 /* CLLoggerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLoggerVC.m; sourceTree = "<group>"; };
 		3768FC931FE22B9D00B229AC /* YTKNetworkingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkingVC.m; sourceTree = "<group>"; };
 		3768FC941FE22B9D00B229AC /* RegisterApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterApi.m; sourceTree = "<group>"; };
 		3768FC951FE22B9D00B229AC /* YTKNetworkingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkingVC.h; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 		3768FCC01FE3C00E00B229AC /* ReformerKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReformerKeys.h; sourceTree = "<group>"; };
 		3768FCC11FE3C27B00B229AC /* ARefomer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARefomer.h; sourceTree = "<group>"; };
 		3768FCC21FE3C27B00B229AC /* ARefomer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARefomer.m; sourceTree = "<group>"; };
+		37D06B931FF1EF0D00E783AA /* FDTemplateLayoutCellVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDTemplateLayoutCellVC.h; sourceTree = "<group>"; };
+		37D06B941FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDTemplateLayoutCellVC.m; sourceTree = "<group>"; };
 		37D44BD01FE7B721006CBD30 /* 3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = 3.plist; sourceTree = "<group>"; };
 		37D44BD21FE7B7AF006CBD30 /* V1Reformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = V1Reformer.h; sourceTree = "<group>"; };
 		37D44BD31FE7B7AF006CBD30 /* V1Reformer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = V1Reformer.m; sourceTree = "<group>"; };
@@ -147,9 +153,9 @@
 		37FE64C21FDE83D100937623 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37FE64C41FDE83D100937623 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37FE64C51FDE83D100937623 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A98F54C7BB4EA4E550CB607E /* Pods_JDComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA55867FCCDF1CC25178AEF /* Pods-JDComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDComponents.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JDComponents/Pods-JDComponents.debug.xcconfig"; sourceTree = "<group>"; };
 		E9D86EE9AC265C05EA3FD94B /* Pods-JDComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDComponents.release.xcconfig"; path = "Pods/Target Support Files/Pods-JDComponents/Pods-JDComponents.release.xcconfig"; sourceTree = "<group>"; };
-		FD6415E0336CE674E06A95D5 /* libPods-JDComponents.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JDComponents.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,7 +163,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				520DBD02F7803B68728A99CA /* libPods-JDComponents.a in Frameworks */,
+				84F88FC1EE9DE7D18B356768 /* Pods_JDComponents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +177,15 @@
 				E9D86EE9AC265C05EA3FD94B /* Pods-JDComponents.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		3710B2E21FE9205C003F2A40 /* CocoaLumberjackDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3710B2E31FE9205C003F2A40 /* CLLoggerVC.h */,
+				3710B2E41FE9205C003F2A40 /* CLLoggerVC.m */,
+			);
+			path = CocoaLumberjackDemo;
 			sourceTree = "<group>";
 		};
 		3768FC911FE22B9D00B229AC /* ReformerDemo */ = {
@@ -237,6 +252,15 @@
 				37D44BDB1FE7B848006CBD30 /* VBusinessManager.m */,
 			);
 			path = OneToMore;
+			sourceTree = "<group>";
+		};
+		37D06B921FF1EEED00E783AA /* UITableView_FDTemplateLayoutCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				37D06B931FF1EF0D00E783AA /* FDTemplateLayoutCellVC.h */,
+				37D06B941FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m */,
+			);
+			path = UITableView_FDTemplateLayoutCellDemo;
 			sourceTree = "<group>";
 		};
 		37DEE2A31FDE85E900E453A2 /* JDNetworkingDemo */ = {
@@ -449,6 +473,8 @@
 		37FE64B51FDE83D100937623 /* JDComponents */ = {
 			isa = PBXGroup;
 			children = (
+				37D06B921FF1EEED00E783AA /* UITableView_FDTemplateLayoutCellDemo */,
+				3710B2E21FE9205C003F2A40 /* CocoaLumberjackDemo */,
 				37DEE2A31FDE85E900E453A2 /* JDNetworkingDemo */,
 				37FE64B61FDE83D100937623 /* AppDelegate.h */,
 				37FE64B71FDE83D100937623 /* AppDelegate.m */,
@@ -466,7 +492,7 @@
 		637FFB9E69EB7CB88883AF5E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FD6415E0336CE674E06A95D5 /* libPods-JDComponents.a */,
+				A98F54C7BB4EA4E550CB607E /* Pods_JDComponents.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -585,9 +611,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JDComponents/Pods-JDComponents-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
+				"${BUILT_PRODUCTS_DIR}/FDTemplateLayoutCell/FDTemplateLayoutCell.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyFrame/HandyFrame.framework",
+				"${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDTemplateLayoutCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyFrame.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YTKNetwork.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -610,12 +647,14 @@
 				37DEE3031FDE9A6500E453A2 /* NSMutableString+CTNetworkingMethods.m in Sources */,
 				37DEE2FD1FDE9A6500E453A2 /* CTCommonParamsGenerator.m in Sources */,
 				3768FCA61FE2541100B229AC /* ReformerMoreToOneVC.m in Sources */,
+				3710B2E51FE9205C003F2A40 /* CLLoggerVC.m in Sources */,
 				37DEE2F51FDE9A6500E453A2 /* CLBasicCommand.m in Sources */,
 				37FE64BB1FDE83D100937623 /* ViewController.m in Sources */,
 				3768FCC31FE3C27B00B229AC /* ARefomer.m in Sources */,
 				37FE64C61FDE83D100937623 /* main.m in Sources */,
 				37DEE2A61FDE878100E453A2 /* JDNetworkingDemoViewController.m in Sources */,
 				3768FC9B1FE22B9D00B229AC /* RegisterApi.m in Sources */,
+				37D06B951FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m in Sources */,
 				3768FC9C1FE22B9D00B229AC /* RTNetworkingVC.m in Sources */,
 				3768FCA91FE2541D00B229AC /* ReformerOntToMoreVC.m in Sources */,
 				37DEE2F01FDE9A6500E453A2 /* CTNetworkingConfigurationManager.m in Sources */,
