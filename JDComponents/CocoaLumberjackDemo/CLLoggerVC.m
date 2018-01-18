@@ -7,13 +7,7 @@
 //
 
 #import "CLLoggerVC.h"
-#import "CocoaLumberjack.h"
-
-#ifdef DEBUG
-static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
-#else
-static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
-#endif
+#import "JDLog.h"
 
 @interface CLLoggerVC ()
 
@@ -29,20 +23,40 @@ static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // 设置通用参数
-    [self setupCocoaLumberJace];
-    
-}
-- (void)setupCocoaLumberJace {
-    [DDLog addLogger:[DDTTYLogger sharedInstance]];
-    [DDLog addLogger:[DDASLLogger sharedInstance]];
-    
-    DDLogVerbose(@"Verbose");
-    DDLogDebug(@"Debug");
-    DDLogInfo(@"Info");
-    DDLogWarn(@"Warn");
-    DDLogError(@"Error");
+
+    // 布局界面
+    [self setupUI];
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    DDLogVerbose(@"directory:%@",[JDLog getLogsDirectory]);
+    DDLogError(@"names:%@",[JDLog getLogsNames]);
+}
+
+#pragma mark - private method
+/// 界面布局
+- (void)setupUI {
+    UISwitch *switchButton = [[UISwitch alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [switchButton addTarget:self action:@selector(changeLevel:) forControlEvents:UIControlEventValueChanged];
+    [self.view addSubview:switchButton];
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(100, 300, 100, 100)];
+    [button setTitle:@"上传日志" forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(updateFiles) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
+}
+/// 上传日志
+- (void)updateFiles {
+    DDLogVerbose(@"directory:%@",[JDLog getLogsDirectory]);
+    DDLogError(@"names:%@",[JDLog getLogsNames]);
+}
+/// 日志的打开和关闭
+- (void)changeLevel:(UISwitch *)switchButton {
+    if (switchButton.isOn) {
+        s_ddLogLevel = DDLogLevelVerbose;
+    } else {
+        s_ddLogLevel = DDLogLevelError;
+    }
+}
 @end

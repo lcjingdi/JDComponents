@@ -18,6 +18,8 @@
 		3768FCBB1FE28B4300B229AC /* ABusinessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FCBA1FE28B4300B229AC /* ABusinessManager.m */; };
 		3768FCBE1FE28B4F00B229AC /* BBusinessManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FCBD1FE28B4F00B229AC /* BBusinessManager.m */; };
 		3768FCC31FE3C27B00B229AC /* ARefomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FCC21FE3C27B00B229AC /* ARefomer.m */; };
+		3777C58520108FF0001CD0B8 /* JDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3777C58420108FF0001CD0B8 /* JDLog.m */; };
+		3777C5882010A173001CD0B8 /* JDCustomFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3777C5872010A173001CD0B8 /* JDCustomFormatter.m */; };
 		37D06B951FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D06B941FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m */; };
 		37D44BD11FE7B721006CBD30 /* 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37D44BD01FE7B721006CBD30 /* 3.plist */; };
 		37D44BD41FE7B7AF006CBD30 /* V1Reformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D44BD31FE7B7AF006CBD30 /* V1Reformer.m */; };
@@ -81,6 +83,10 @@
 		3768FCC01FE3C00E00B229AC /* ReformerKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReformerKeys.h; sourceTree = "<group>"; };
 		3768FCC11FE3C27B00B229AC /* ARefomer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ARefomer.h; sourceTree = "<group>"; };
 		3768FCC21FE3C27B00B229AC /* ARefomer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARefomer.m; sourceTree = "<group>"; };
+		3777C58320108FF0001CD0B8 /* JDLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLog.h; sourceTree = "<group>"; };
+		3777C58420108FF0001CD0B8 /* JDLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLog.m; sourceTree = "<group>"; };
+		3777C5862010A173001CD0B8 /* JDCustomFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDCustomFormatter.h; sourceTree = "<group>"; };
+		3777C5872010A173001CD0B8 /* JDCustomFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDCustomFormatter.m; sourceTree = "<group>"; };
 		37D06B931FF1EF0D00E783AA /* FDTemplateLayoutCellVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDTemplateLayoutCellVC.h; sourceTree = "<group>"; };
 		37D06B941FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDTemplateLayoutCellVC.m; sourceTree = "<group>"; };
 		37D44BD01FE7B721006CBD30 /* 3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = 3.plist; sourceTree = "<group>"; };
@@ -184,6 +190,10 @@
 			children = (
 				3710B2E31FE9205C003F2A40 /* CLLoggerVC.h */,
 				3710B2E41FE9205C003F2A40 /* CLLoggerVC.m */,
+				3777C58320108FF0001CD0B8 /* JDLog.h */,
+				3777C58420108FF0001CD0B8 /* JDLog.m */,
+				3777C5862010A173001CD0B8 /* JDCustomFormatter.h */,
+				3777C5872010A173001CD0B8 /* JDCustomFormatter.m */,
 			);
 			path = CocoaLumberjackDemo;
 			sourceTree = "<group>";
@@ -675,6 +685,8 @@
 				37DEE2FA1FDE9A6500E453A2 /* CTCachedObject.m in Sources */,
 				37DEE2F21FDE9A6500E453A2 /* CTURLResponse.m in Sources */,
 				37DEE3051FDE9A6500E453A2 /* CTService.m in Sources */,
+				3777C5882010A173001CD0B8 /* JDCustomFormatter.m in Sources */,
+				3777C58520108FF0001CD0B8 /* JDLog.m in Sources */,
 				37D44BD71FE7B7B8006CBD30 /* V2Reformer.m in Sources */,
 				3768FCBE1FE28B4F00B229AC /* BBusinessManager.m in Sources */,
 				37DEE2F91FDE9A6500E453A2 /* CTCache.m in Sources */,

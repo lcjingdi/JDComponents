@@ -7,6 +7,7 @@ target 'JDComponents' do
 #网络库类
 pod 'YTKNetwork'
 pod 'HandyFrame'
+#日志类
 pod 'CocoaLumberjack'
   # Pods for JDComponents
 pod 'FDTemplateLayoutCell', '~> 1.0.0'
