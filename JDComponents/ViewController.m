@@ -56,6 +56,10 @@ NSString * const kDataSourceItemKeyTitle = @"kDataSourceItemKeyTitle";
                         @{
                             kDataSourceItemKeyType: @"FDTemplateLayoutCellVC",
                             kDataSourceItemKeyTitle:@"测试FDTemplateLayoutCell"
+                            },
+                        @{
+                            kDataSourceItemKeyType: @"MJExtensionVC",
+                            kDataSourceItemKeyTitle:@"测试json数据的解析"
                             }
                         ];
     }

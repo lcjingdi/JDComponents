@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3710B2E51FE9205C003F2A40 /* CLLoggerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3710B2E41FE9205C003F2A40 /* CLLoggerVC.m */; };
+		376097862015D9230067DB87 /* MJExtensionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 376097852015D9230067DB87 /* MJExtensionVC.m */; };
+		376097892015DA1A0067DB87 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 376097882015DA1A0067DB87 /* PersonModel.m */; };
+		3760978C2015E1110067DB87 /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3760978B2015E1110067DB87 /* StudentModel.m */; };
+		3760978F2015E2910067DB87 /* GirlModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3760978E2015E2910067DB87 /* GirlModel.m */; };
 		3768FC9A1FE22B9D00B229AC /* YTKNetworkingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FC931FE22B9D00B229AC /* YTKNetworkingVC.m */; };
 		3768FC9B1FE22B9D00B229AC /* RegisterApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FC941FE22B9D00B229AC /* RegisterApi.m */; };
 		3768FC9C1FE22B9D00B229AC /* RTNetworkingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FC991FE22B9D00B229AC /* RTNetworkingVC.m */; };
@@ -63,6 +67,14 @@
 /* Begin PBXFileReference section */
 		3710B2E31FE9205C003F2A40 /* CLLoggerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLoggerVC.h; sourceTree = "<group>"; };
 		3710B2E41FE9205C003F2A40 /* CLLoggerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLoggerVC.m; sourceTree = "<group>"; };
+		376097842015D9230067DB87 /* MJExtensionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExtensionVC.h; sourceTree = "<group>"; };
+		376097852015D9230067DB87 /* MJExtensionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJExtensionVC.m; sourceTree = "<group>"; };
+		376097872015DA1A0067DB87 /* PersonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonModel.h; sourceTree = "<group>"; };
+		376097882015DA1A0067DB87 /* PersonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonModel.m; sourceTree = "<group>"; };
+		3760978A2015E1110067DB87 /* StudentModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		3760978B2015E1110067DB87 /* StudentModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
+		3760978D2015E2910067DB87 /* GirlModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GirlModel.h; sourceTree = "<group>"; };
+		3760978E2015E2910067DB87 /* GirlModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GirlModel.m; sourceTree = "<group>"; };
 		3768FC931FE22B9D00B229AC /* YTKNetworkingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTKNetworkingVC.m; sourceTree = "<group>"; };
 		3768FC941FE22B9D00B229AC /* RegisterApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterApi.m; sourceTree = "<group>"; };
 		3768FC951FE22B9D00B229AC /* YTKNetworkingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKNetworkingVC.h; sourceTree = "<group>"; };
@@ -196,6 +208,21 @@
 				3777C5872010A173001CD0B8 /* JDCustomFormatter.m */,
 			);
 			path = CocoaLumberjackDemo;
+			sourceTree = "<group>";
+		};
+		376097832015D9080067DB87 /* MJExtensionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				376097842015D9230067DB87 /* MJExtensionVC.h */,
+				376097852015D9230067DB87 /* MJExtensionVC.m */,
+				376097872015DA1A0067DB87 /* PersonModel.h */,
+				376097882015DA1A0067DB87 /* PersonModel.m */,
+				3760978A2015E1110067DB87 /* StudentModel.h */,
+				3760978B2015E1110067DB87 /* StudentModel.m */,
+				3760978D2015E2910067DB87 /* GirlModel.h */,
+				3760978E2015E2910067DB87 /* GirlModel.m */,
+			);
+			path = MJExtensionDemo;
 			sourceTree = "<group>";
 		};
 		3768FC911FE22B9D00B229AC /* ReformerDemo */ = {
@@ -483,6 +510,7 @@
 		37FE64B51FDE83D100937623 /* JDComponents */ = {
 			isa = PBXGroup;
 			children = (
+				376097832015D9080067DB87 /* MJExtensionDemo */,
 				37D06B921FF1EEED00E783AA /* UITableView_FDTemplateLayoutCellDemo */,
 				3710B2E21FE9205C003F2A40 /* CocoaLumberjackDemo */,
 				37DEE2A31FDE85E900E453A2 /* JDNetworkingDemo */,
@@ -657,6 +685,7 @@
 				37DEE2F41FDE9A6500E453A2 /* LGBaseAPICommand.m in Sources */,
 				3768FCBB1FE28B4300B229AC /* ABusinessManager.m in Sources */,
 				37DEE3031FDE9A6500E453A2 /* NSMutableString+CTNetworkingMethods.m in Sources */,
+				3760978C2015E1110067DB87 /* StudentModel.m in Sources */,
 				37DEE2FD1FDE9A6500E453A2 /* CTCommonParamsGenerator.m in Sources */,
 				3768FCA61FE2541100B229AC /* ReformerMoreToOneVC.m in Sources */,
 				3710B2E51FE9205C003F2A40 /* CLLoggerVC.m in Sources */,
@@ -664,6 +693,7 @@
 				37FE64BB1FDE83D100937623 /* ViewController.m in Sources */,
 				3768FCC31FE3C27B00B229AC /* ARefomer.m in Sources */,
 				37FE64C61FDE83D100937623 /* main.m in Sources */,
+				3760978F2015E2910067DB87 /* GirlModel.m in Sources */,
 				37DEE2A61FDE878100E453A2 /* JDNetworkingDemoViewController.m in Sources */,
 				3768FC9B1FE22B9D00B229AC /* RegisterApi.m in Sources */,
 				37D06B951FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m in Sources */,
@@ -674,6 +704,7 @@
 				3768FC9A1FE22B9D00B229AC /* YTKNetworkingVC.m in Sources */,
 				37D44BD41FE7B7AF006CBD30 /* V1Reformer.m in Sources */,
 				37DEE3021FDE9A6500E453A2 /* NSDictionary+CTNetworkingMethods.m in Sources */,
+				376097892015DA1A0067DB87 /* PersonModel.m in Sources */,
 				37FE64B81FDE83D100937623 /* AppDelegate.m in Sources */,
 				37DEE2EE1FDE9A6500E453A2 /* CTLoggerConfiguration.m in Sources */,
 				37DEE3011FDE9A6500E453A2 /* NSArray+CTNetworkingMethods.m in Sources */,
@@ -684,6 +715,7 @@
 				37DEE2F31FDE9A6500E453A2 /* CTAPIBaseManager.m in Sources */,
 				37DEE2F11FDE9A6500E453A2 /* CTLogger.m in Sources */,
 				37DEE2FB1FDE9A6500E453A2 /* CTRequestGenerator.m in Sources */,
+				376097862015D9230067DB87 /* MJExtensionVC.m in Sources */,
 				37DEE2FA1FDE9A6500E453A2 /* CTCachedObject.m in Sources */,
 				37DEE2F21FDE9A6500E453A2 /* CTURLResponse.m in Sources */,
 				37DEE3051FDE9A6500E453A2 /* CTService.m in Sources */,
