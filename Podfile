@@ -12,4 +12,7 @@ pod 'CocoaLumberjack'
   # Pods for JDComponents
 pod 'FDTemplateLayoutCell', '~> 1.0.0'
 
+#json数据解析
+pod 'MJExtension'
+
 end
