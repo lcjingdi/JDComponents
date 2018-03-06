@@ -66,6 +66,10 @@ NSString * const kDataSourceNetworkingItemKeyTitle = @"kDataSourceNetworkingItem
                             },
                         @{  kDataSourceNetworkingItemKeyType:@"ReformerOntToMoreVC",
                             kDataSourceNetworkingItemKeyTitle:@"测试Reformer一个view接收多个接口数据"
+                            },
+                        @{
+                            kDataSourceNetworkingItemKeyType:@"ReformerMoreViewFromOneVC",
+                            kDataSourceNetworkingItemKeyTitle:@"测试横竖屏view对应同一个API"
                             }
                         ];
     }

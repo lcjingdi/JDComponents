@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37071CB0204E3CCF0054FC90 /* ReformerMoreViewFromOneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37071CAF204E3CCF0054FC90 /* ReformerMoreViewFromOneVC.m */; };
+		37071CB3204E3FF70054FC90 /* VerticalScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37071CB2204E3FF70054FC90 /* VerticalScreenView.m */; };
+		37071CB6204E40020054FC90 /* HorizontalScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37071CB5204E40020054FC90 /* HorizontalScreenView.m */; };
 		3710B2E51FE9205C003F2A40 /* CLLoggerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3710B2E41FE9205C003F2A40 /* CLLoggerVC.m */; };
 		376097862015D9230067DB87 /* MJExtensionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 376097852015D9230067DB87 /* MJExtensionVC.m */; };
 		376097892015DA1A0067DB87 /* PersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 376097882015DA1A0067DB87 /* PersonModel.m */; };
@@ -65,6 +68,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37071CAE204E3CCF0054FC90 /* ReformerMoreViewFromOneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReformerMoreViewFromOneVC.h; sourceTree = "<group>"; };
+		37071CAF204E3CCF0054FC90 /* ReformerMoreViewFromOneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReformerMoreViewFromOneVC.m; sourceTree = "<group>"; };
+		37071CB1204E3FF70054FC90 /* VerticalScreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalScreenView.h; sourceTree = "<group>"; };
+		37071CB2204E3FF70054FC90 /* VerticalScreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalScreenView.m; sourceTree = "<group>"; };
+		37071CB4204E40020054FC90 /* HorizontalScreenView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HorizontalScreenView.h; sourceTree = "<group>"; };
+		37071CB5204E40020054FC90 /* HorizontalScreenView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizontalScreenView.m; sourceTree = "<group>"; };
 		3710B2E31FE9205C003F2A40 /* CLLoggerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLoggerVC.h; sourceTree = "<group>"; };
 		3710B2E41FE9205C003F2A40 /* CLLoggerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLoggerVC.m; sourceTree = "<group>"; };
 		376097842015D9230067DB87 /* MJExtensionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJExtensionVC.h; sourceTree = "<group>"; };
@@ -197,6 +206,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		37071CAD204E3CA80054FC90 /* MoreViewFromOneAPI */ = {
+			isa = PBXGroup;
+			children = (
+				37071CAE204E3CCF0054FC90 /* ReformerMoreViewFromOneVC.h */,
+				37071CAF204E3CCF0054FC90 /* ReformerMoreViewFromOneVC.m */,
+				37071CB1204E3FF70054FC90 /* VerticalScreenView.h */,
+				37071CB2204E3FF70054FC90 /* VerticalScreenView.m */,
+				37071CB4204E40020054FC90 /* HorizontalScreenView.h */,
+				37071CB5204E40020054FC90 /* HorizontalScreenView.m */,
+			);
+			path = MoreViewFromOneAPI;
+			sourceTree = "<group>";
+		};
 		3710B2E21FE9205C003F2A40 /* CocoaLumberjackDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,6 +250,7 @@
 		3768FC911FE22B9D00B229AC /* ReformerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				37071CAD204E3CA80054FC90 /* MoreViewFromOneAPI */,
 				3768FCC51FE3C83F00B229AC /* OneToMore */,
 				3768FCC41FE3C82200B229AC /* MoreToOne */,
 			);
@@ -698,6 +721,7 @@
 				3768FC9B1FE22B9D00B229AC /* RegisterApi.m in Sources */,
 				37D06B951FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m in Sources */,
 				3768FC9C1FE22B9D00B229AC /* RTNetworkingVC.m in Sources */,
+				37071CB3204E3FF70054FC90 /* VerticalScreenView.m in Sources */,
 				3768FCA91FE2541D00B229AC /* ReformerOntToMoreVC.m in Sources */,
 				37DEE2F01FDE9A6500E453A2 /* CTNetworkingConfigurationManager.m in Sources */,
 				37DEE2FF1FDE9A6500E453A2 /* NSObject+CTNetworkingMethods.m in Sources */,
@@ -711,11 +735,13 @@
 				37DEE3061FDE9A6500E453A2 /* CTServiceFactory.m in Sources */,
 				37D44BDC1FE7B848006CBD30 /* VBusinessManager.m in Sources */,
 				37DEE3001FDE9A6500E453A2 /* NSString+CTNetworkingMethods.m in Sources */,
+				37071CB0204E3CCF0054FC90 /* ReformerMoreViewFromOneVC.m in Sources */,
 				37DEE2F61FDE9A6500E453A2 /* CTLocationManager.m in Sources */,
 				37DEE2F31FDE9A6500E453A2 /* CTAPIBaseManager.m in Sources */,
 				37DEE2F11FDE9A6500E453A2 /* CTLogger.m in Sources */,
 				37DEE2FB1FDE9A6500E453A2 /* CTRequestGenerator.m in Sources */,
 				376097862015D9230067DB87 /* MJExtensionVC.m in Sources */,
+				37071CB6204E40020054FC90 /* HorizontalScreenView.m in Sources */,
 				37DEE2FA1FDE9A6500E453A2 /* CTCachedObject.m in Sources */,
 				37DEE2F21FDE9A6500E453A2 /* CTURLResponse.m in Sources */,
 				37DEE3051FDE9A6500E453A2 /* CTService.m in Sources */,
