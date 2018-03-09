@@ -60,6 +60,14 @@ NSString * const kDataSourceItemKeyTitle = @"kDataSourceItemKeyTitle";
                         @{
                             kDataSourceItemKeyType: @"MJExtensionVC",
                             kDataSourceItemKeyTitle:@"测试json数据的解析"
+                            },
+                        @{
+                            kDataSourceItemKeyType:@"WebViewVC",
+                            kDataSourceItemKeyTitle:@"webview测试"
+                            },
+                        @{
+                            kDataSourceItemKeyType:@"RuntimeVC",
+                            kDataSourceItemKeyTitle:@"runtime测试"
                             }
                         ];
     }
