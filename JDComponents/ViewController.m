@@ -68,6 +68,10 @@ NSString * const kDataSourceItemKeyTitle = @"kDataSourceItemKeyTitle";
                         @{
                             kDataSourceItemKeyType:@"RuntimeVC",
                             kDataSourceItemKeyTitle:@"runtime测试"
+                            },
+                        @{
+                            kDataSourceItemKeyType: @"HotFixVC",
+                            kDataSourceItemKeyTitle: @"HotFix测试"
                             }
                         ];
     }

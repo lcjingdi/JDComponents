@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "Felix.h"
 
 @interface AppDelegate ()
 
@@ -17,9 +18,22 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self fixBugs];
     return YES;
 }
-
+- (void)fixBugs {
+    [Felix fixIt];
+    NSString *fixScriptString2 = @" \
+    fixInstanceMethodReplace('MightyCrash', 'showArray:', function(instance, originInvocation, originArguments){ \
+    if (originArguments[0][0] > 5) { \
+    console.log('大于5');\
+    } else {\
+    console.log('小于5');\
+    }\
+    }); \
+    ";
+    [Felix evalString:fixScriptString2];
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

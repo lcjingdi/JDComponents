@@ -34,6 +34,9 @@
 		3768FCC31FE3C27B00B229AC /* ARefomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3768FCC21FE3C27B00B229AC /* ARefomer.m */; };
 		3777C58520108FF0001CD0B8 /* JDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3777C58420108FF0001CD0B8 /* JDLog.m */; };
 		3777C5882010A173001CD0B8 /* JDCustomFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3777C5872010A173001CD0B8 /* JDCustomFormatter.m */; };
+		377C0A85205684750059C759 /* HotFixVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C0A84205684750059C759 /* HotFixVC.m */; };
+		377C0A882056897F0059C759 /* Felix.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C0A872056897F0059C759 /* Felix.m */; };
+		377C0A8B20568C710059C759 /* MightyCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C0A8A20568C710059C759 /* MightyCrash.m */; };
 		37D06B951FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D06B941FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m */; };
 		37D44BD11FE7B721006CBD30 /* 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37D44BD01FE7B721006CBD30 /* 3.plist */; };
 		37D44BD41FE7B7AF006CBD30 /* V1Reformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D44BD31FE7B7AF006CBD30 /* V1Reformer.m */; };
@@ -129,6 +132,12 @@
 		3777C58420108FF0001CD0B8 /* JDLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLog.m; sourceTree = "<group>"; };
 		3777C5862010A173001CD0B8 /* JDCustomFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDCustomFormatter.h; sourceTree = "<group>"; };
 		3777C5872010A173001CD0B8 /* JDCustomFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDCustomFormatter.m; sourceTree = "<group>"; };
+		377C0A83205684750059C759 /* HotFixVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotFixVC.h; sourceTree = "<group>"; };
+		377C0A84205684750059C759 /* HotFixVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotFixVC.m; sourceTree = "<group>"; };
+		377C0A862056897F0059C759 /* Felix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Felix.h; sourceTree = "<group>"; };
+		377C0A872056897F0059C759 /* Felix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Felix.m; sourceTree = "<group>"; };
+		377C0A8920568C710059C759 /* MightyCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MightyCrash.h; sourceTree = "<group>"; };
+		377C0A8A20568C710059C759 /* MightyCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MightyCrash.m; sourceTree = "<group>"; };
 		37D06B931FF1EF0D00E783AA /* FDTemplateLayoutCellVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDTemplateLayoutCellVC.h; sourceTree = "<group>"; };
 		37D06B941FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDTemplateLayoutCellVC.m; sourceTree = "<group>"; };
 		37D44BD01FE7B721006CBD30 /* 3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = 3.plist; sourceTree = "<group>"; };
@@ -371,6 +380,19 @@
 			path = OneToMore;
 			sourceTree = "<group>";
 		};
+		377C0A82205684580059C759 /* HotFixDemo */ = {
+			isa = PBXGroup;
+			children = (
+				377C0A83205684750059C759 /* HotFixVC.h */,
+				377C0A84205684750059C759 /* HotFixVC.m */,
+				377C0A862056897F0059C759 /* Felix.h */,
+				377C0A872056897F0059C759 /* Felix.m */,
+				377C0A8920568C710059C759 /* MightyCrash.h */,
+				377C0A8A20568C710059C759 /* MightyCrash.m */,
+			);
+			path = HotFixDemo;
+			sourceTree = "<group>";
+		};
 		37D06B921FF1EEED00E783AA /* UITableView_FDTemplateLayoutCellDemo */ = {
 			isa = PBXGroup;
 			children = (
@@ -590,6 +612,7 @@
 		37FE64B51FDE83D100937623 /* JDComponents */ = {
 			isa = PBXGroup;
 			children = (
+				377C0A82205684580059C759 /* HotFixDemo */,
 				374F2EC3204EA28A00404083 /* RuntimeDemo */,
 				374F2EBC204E9FA400404083 /* WebViewDemo */,
 				376097832015D9080067DB87 /* MJExtensionDemo */,
@@ -733,6 +756,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JDComponents/Pods-JDComponents-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Aspects/Aspects.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework",
 				"${BUILT_PRODUCTS_DIR}/FDTemplateLayoutCell/FDTemplateLayoutCell.framework",
 				"${BUILT_PRODUCTS_DIR}/HandyFrame/HandyFrame.framework",
@@ -742,6 +766,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aspects.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaLumberjack.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDTemplateLayoutCell.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyFrame.framework",
@@ -764,9 +789,11 @@
 				37DEE3041FDE9A6500E453A2 /* UIDevice+CTNetworkingMethods.m in Sources */,
 				37DEE2F81FDE9A6500E453A2 /* CTApiProxy.m in Sources */,
 				37DEE2FE1FDE9A6500E453A2 /* NSURLRequest+CTNetworkingMethods.m in Sources */,
+				377C0A882056897F0059C759 /* Felix.m in Sources */,
 				374F2EBF204E9FB900404083 /* WebViewVC.m in Sources */,
 				37DEE2F41FDE9A6500E453A2 /* LGBaseAPICommand.m in Sources */,
 				3768FCBB1FE28B4300B229AC /* ABusinessManager.m in Sources */,
+				377C0A85205684750059C759 /* HotFixVC.m in Sources */,
 				37DEE3031FDE9A6500E453A2 /* NSMutableString+CTNetworkingMethods.m in Sources */,
 				3760978C2015E1110067DB87 /* StudentModel.m in Sources */,
 				37DEE2FD1FDE9A6500E453A2 /* CTCommonParamsGenerator.m in Sources */,
@@ -776,6 +803,7 @@
 				374F2EC6204EA2BA00404083 /* RuntimeVC.m in Sources */,
 				37FE64BB1FDE83D100937623 /* ViewController.m in Sources */,
 				3768FCC31FE3C27B00B229AC /* ARefomer.m in Sources */,
+				377C0A8B20568C710059C759 /* MightyCrash.m in Sources */,
 				37FE64C61FDE83D100937623 /* main.m in Sources */,
 				3760978F2015E2910067DB87 /* GirlModel.m in Sources */,
 				37DEE2A61FDE878100E453A2 /* JDNetworkingDemoViewController.m in Sources */,

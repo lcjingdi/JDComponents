@@ -15,4 +15,7 @@ pod 'FDTemplateLayoutCell', '~> 1.0.0'
 #json数据解析
 pod 'MJExtension'
 
+#runtime类
+pod 'Aspects'
+
 end
