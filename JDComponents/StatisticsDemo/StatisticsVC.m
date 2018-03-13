@@ -18,7 +18,9 @@
 @end
 
 @implementation StatisticsVC
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.navigationController pushViewController:[[NSClassFromString(@"StatisticsVC2") alloc] init] animated:YES];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     

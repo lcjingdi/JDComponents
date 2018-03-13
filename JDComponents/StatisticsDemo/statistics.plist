@@ -5,24 +5,44 @@
 	<key>StatisticsVC</key>
 	<array>
 		<dict>
+			<key>Params</key>
+			<array>
+				<string>jingdi3333</string>
+				<string>1000</string>
+			</array>
 			<key>EventId</key>
 			<string>1</string>
 			<key>MethodName</key>
 			<string>tapButton1Click</string>
 		</dict>
 		<dict>
+			<key>Params</key>
+			<array>
+				<string>jingdi2</string>
+				<string>33333333</string>
+			</array>
 			<key>EventId</key>
 			<string>2</string>
 			<key>MethodName</key>
 			<string>tapButton2Click</string>
 		</dict>
 		<dict>
+			<key>Params</key>
+			<array>
+				<string>jingdi3</string>
+				<string>5334324</string>
+			</array>
 			<key>EventId</key>
 			<string>3</string>
 			<key>MethodName</key>
 			<string>tapButton3Click</string>
 		</dict>
 		<dict>
+			<key>Params</key>
+			<array>
+				<string>jingdi55555</string>
+				<string>3erwerwer</string>
+			</array>
 			<key>EventId</key>
 			<string>4</string>
 			<key>MethodName</key>

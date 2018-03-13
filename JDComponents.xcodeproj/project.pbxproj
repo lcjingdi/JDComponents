@@ -40,6 +40,7 @@
 		37D0483D205780ED00F6DEFE /* StatisticsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D0483C205780ED00F6DEFE /* StatisticsVC.m */; };
 		37D0483F2057880500F6DEFE /* statistics.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37D0483E2057880500F6DEFE /* statistics.plist */; };
 		37D0484220578B6100F6DEFE /* StatisticsAllEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D0484120578B6100F6DEFE /* StatisticsAllEvent.m */; };
+		37D0484520579B0B00F6DEFE /* StatisticsVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D0484420579B0B00F6DEFE /* StatisticsVC2.m */; };
 		37D06B951FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D06B941FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m */; };
 		37D44BD11FE7B721006CBD30 /* 3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37D44BD01FE7B721006CBD30 /* 3.plist */; };
 		37D44BD41FE7B7AF006CBD30 /* V1Reformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D44BD31FE7B7AF006CBD30 /* V1Reformer.m */; };
@@ -146,6 +147,8 @@
 		37D0483E2057880500F6DEFE /* statistics.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = statistics.plist; sourceTree = "<group>"; };
 		37D0484020578B6100F6DEFE /* StatisticsAllEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatisticsAllEvent.h; sourceTree = "<group>"; };
 		37D0484120578B6100F6DEFE /* StatisticsAllEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatisticsAllEvent.m; sourceTree = "<group>"; };
+		37D0484320579B0B00F6DEFE /* StatisticsVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatisticsVC2.h; sourceTree = "<group>"; };
+		37D0484420579B0B00F6DEFE /* StatisticsVC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatisticsVC2.m; sourceTree = "<group>"; };
 		37D06B931FF1EF0D00E783AA /* FDTemplateLayoutCellVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FDTemplateLayoutCellVC.h; sourceTree = "<group>"; };
 		37D06B941FF1EF0D00E783AA /* FDTemplateLayoutCellVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FDTemplateLayoutCellVC.m; sourceTree = "<group>"; };
 		37D44BD01FE7B721006CBD30 /* 3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = 3.plist; sourceTree = "<group>"; };
@@ -409,6 +412,8 @@
 				37D0483E2057880500F6DEFE /* statistics.plist */,
 				37D0484020578B6100F6DEFE /* StatisticsAllEvent.h */,
 				37D0484120578B6100F6DEFE /* StatisticsAllEvent.m */,
+				37D0484320579B0B00F6DEFE /* StatisticsVC2.h */,
+				37D0484420579B0B00F6DEFE /* StatisticsVC2.m */,
 			);
 			path = StatisticsDemo;
 			sourceTree = "<group>";
@@ -835,6 +840,7 @@
 				3768FC9C1FE22B9D00B229AC /* RTNetworkingVC.m in Sources */,
 				37071CB3204E3FF70054FC90 /* VerticalScreenView.m in Sources */,
 				3768FCA91FE2541D00B229AC /* ReformerOntToMoreVC.m in Sources */,
+				37D0484520579B0B00F6DEFE /* StatisticsVC2.m in Sources */,
 				37D0483D205780ED00F6DEFE /* StatisticsVC.m in Sources */,
 				37DEE2F01FDE9A6500E453A2 /* CTNetworkingConfigurationManager.m in Sources */,
 				37DEE2FF1FDE9A6500E453A2 /* NSObject+CTNetworkingMethods.m in Sources */,
