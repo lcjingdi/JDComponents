@@ -77,6 +77,7 @@
     
     UIButton *button = (UIButton *)[self.view viewWithTag:100];
     button.frame = CGRectMake(100, 100, 100, 50);
+    button.backgroundColor = [UIColor lightGrayColor];
 }
 
 

@@ -40,6 +40,8 @@ NSString * const kDataSourceItemKeyTitle = @"kDataSourceItemKeyTitle";
     NSString *classString = self.dataSource[indexPath.row][kDataSourceItemKeyType];
     Class class = NSClassFromString(classString);
     UIViewController *vc = [[class alloc] init];
+    vc.view.backgroundColor = [UIColor whiteColor];
+    vc.title = self.dataSource[indexPath.row][kDataSourceItemKeyTitle];
     [self.navigationController pushViewController:vc animated:YES];
 }
 - (NSArray *)dataSource {
@@ -72,6 +74,10 @@ NSString * const kDataSourceItemKeyTitle = @"kDataSourceItemKeyTitle";
                         @{
                             kDataSourceItemKeyType: @"HotFixVC",
                             kDataSourceItemKeyTitle: @"HotFix测试"
+                            },
+                        @{
+                            kDataSourceItemKeyType:@"StatisticsVC",
+                            kDataSourceItemKeyTitle:@"统计打点测试"
                             }
                         ];
     }
